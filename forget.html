@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #i1{
+           
+            height: 200px;
+            width: 500px;
+            margin-left: 500px;
+            margin-top: 100px;
+            float: left;
+            display: flex;
+        }
+        #i2
+        {
+            width: 300px;
+            margin-left: 40px;
+            
+        }
+        #i3{
+            display: flex;
+
+        }
+        label,input{
+            margin-bottom: 8px;
+        }
+        
+        
+        input{
+            margin-top: 10px;
+            width: 260px;
+        }
+        #i5{
+            float: right;
+        }
+        img{
+            height: 400px;
+            width: 450px;
+        }
+    </style>
+</head>
+<body style="background-color:#F6F5FA;">
+    <div id="i1">
+        <div id="i01">
+        <div id="i2">
+            <h1>Forgot Password ?</h1>
+        </div>
+        <div id="13">
+            <form id="i4">
+                <label> EMAIL ADDRESS</label><br>
+                <input type="email" placeholder="ENTER EMAIL">
+                <br>
+                <label style="color: #323266; padding-top: 45px;">We'll send a link to reset your password.</label>
+                <button onclick="display()" style="background-color: #0DBA4B;color: white;width: 100px;border-radius: 20px;height: 30px;">Send Mail</button>
+                
+            </form>
+        </div>
+    </div>
+    <div>
+    <img src="https://www.guvi.in/images/art-forgot-password.png" alt="logo">
+</div>
+        
+        </div>
+    </div>
+    <script>
+        function display()
+        {
+            alert("LINK HAS SUCCESFULLY SENT")
+        }
+    </script>
+</body>
+</html>
